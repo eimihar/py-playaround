@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "playaround"
+name = "poetry-flask"
 version = "0.1.0"
 description = ""
 authors = ["Ahmad Rahimie <newrehmi@gmail.com>"]
 readme = "README.md"
+packages = [{include = "poetry_flask", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-httpx = "^0.23.3"
 flask = "^2.2.3"
 
 
